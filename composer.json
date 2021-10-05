@@ -1,0 +1,21 @@
+{
+    "name": "fraeio/database",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Fraeio\\Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nathan",
+            "email": "contact@frae.io"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
