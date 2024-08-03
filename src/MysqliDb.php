@@ -47,7 +47,7 @@ class MysqliDb {
   /* --------------- *
      Other Variables
    * --------------- */
-  protected int $traceStartQ;
+  protected float $traceStartQ;
   protected bool $traceEnabled = TRUE;
   protected null|string $traceStripPrefix = '';
 
